@@ -1,4 +1,4 @@
-"""Shared settings for the first playable prototype."""
+"""Shared settings for Webcam Air Hockey."""
 
 SCREEN_WIDTH = 900
 SCREEN_HEIGHT = 600
@@ -7,6 +7,11 @@ FPS = 60
 TABLE_MARGIN = 48
 PADDLE_RADIUS = 28
 PUCK_RADIUS = 14
+
+CAMERA_PREVIEW_WIDTH = 220
+CAMERA_PREVIEW_HEIGHT = 165
+HAND_SMOOTHING_SPEED = 14.0
+HAND_LOST_GRACE_SECONDS = 0.8
 
 BACKGROUND_COLOR = (12, 28, 39)
 TABLE_COLOR = (20, 75, 88)
